@@ -13,8 +13,7 @@
   text-rendering: optimizeLegibility; }
 
 html {
-  font-size: 62.5%;
-  background: radial-gradient(ellipse at center, #F7F6F0 0, #c2ba8c 80%, #b0a66b 100%); }
+  font-size: 62.5%; }
 
 body {
   font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
@@ -391,14 +390,38 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-.logo {
-  margin: -58px 0 0 -100px;
-  position: absolute;
-  top: 50%;
-  left: 50%; }
+.al-header {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff; }
+
+.header__title {
+  margin: 0;
+  padding: 35px 15px; }
 
 .nav ul {
   list-style: none; }
+
+.grid__wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: dense;
+  -ms-grid-columns: 5fr 4fr;
+      grid-template-columns: 5fr 4fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  height: 100vh; }
+
+.grid__element {
+  background-color: #d57f70; }
+
+.al-footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #000000;
+  color: #ffffff; }
 
 @font-face {
   font-family: 'Font-Name';

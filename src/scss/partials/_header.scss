@@ -1,10 +1,11 @@
-.header {
+.al-header  {
+  width: 100%;
 
+  background-color: #000000;
+  color: #ffffff;
 }
-.logo {
-  margin: -58px 0 0 -100px;
-  @include position(absolute, 50% 0 0 50%);
-  img {
 
-  }
+.header__title {
+  margin: 0;
+  padding: 35px 15px ;
 }
