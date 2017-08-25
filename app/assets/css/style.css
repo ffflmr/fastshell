@@ -408,13 +408,58 @@ textarea {
   grid-auto-flow: dense;
   -ms-grid-columns: 5fr 4fr;
       grid-template-columns: 5fr 4fr;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 15px;
   height: 100vh; }
 
 .grid__element {
   background-color: #d57f70; }
+  .grid__element .gid__element__desc {
+    display: none;
+    margin: 0;
+    text-align: center;
+    font-size: 5em; }
+  .grid__element.-about {
+    background: url("https://unsplash.it/900/600?image=1011") center; }
+    .grid__element.-about:hover {
+      background: #d57f70;
+      cursor: pointer; }
+      .grid__element.-about:hover .gid__element__desc {
+        display: block; }
+  .grid__element.-projet1 {
+    background: url("https://unsplash.it/900/600?image=1011") center; }
+    .grid__element.-projet1:hover {
+      background: #dcb967;
+      cursor: pointer; }
+      .grid__element.-projet1:hover .gid__element__desc {
+        display: block; }
+  .grid__element.-projet2 {
+    background: url("https://unsplash.it/900/600?image=1011") center; }
+    .grid__element.-projet2:hover {
+      background: #ac9897;
+      cursor: pointer; }
+      .grid__element.-projet2:hover .gid__element__desc {
+        display: block; }
+  .grid__element.-projet3 {
+    background: url("https://unsplash.it/900/600?image=1011") center; }
+    .grid__element.-projet3:hover {
+      background: #d57f70;
+      cursor: pointer; }
+      .grid__element.-projet3:hover .gid__element__desc {
+        display: block; }
+  .grid__element.-projet4 {
+    background: url("https://unsplash.it/900/600?image=1011") center; }
+    .grid__element.-projet4:hover {
+      background: #dcb967;
+      cursor: pointer; }
+      .grid__element.-projet4:hover .gid__element__desc {
+        display: block; }
+  .grid__element.-projet5 {
+    background: url("https://unsplash.it/900/600?image=1011") center; }
+    .grid__element.-projet5:hover {
+      background: #ac9897;
+      cursor: pointer; }
+      .grid__element.-projet5:hover .gid__element__desc {
+        display: block; }
 
 .al-footer {
   width: 100%;

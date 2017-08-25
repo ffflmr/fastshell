@@ -2,11 +2,99 @@
   display: grid;
   grid-auto-flow: dense;
   grid-template-columns: 5fr 4fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  // grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 15px;
   height: 100vh;
 }
 
 .grid__element {
   background-color: #d57f70;
+
+  .gid__element__desc {
+    display: none;
+    margin: 0;
+
+    text-align: center;
+    font-size: 5em;
+  }
+
+  &.-about {
+    background: url('https://unsplash.it/900/600?image=1011') center;
+
+    &:hover {
+      background: #d57f70;
+      cursor: pointer;
+
+      .gid__element__desc {
+        display: block;
+      }
+    }
+  }
+
+  &.-projet1 {
+    background: url('https://unsplash.it/900/600?image=1011') center;
+
+    &:hover {
+      background: #dcb967;
+      cursor: pointer;
+
+      .gid__element__desc {
+        display: block;
+      }
+    }
+  }
+
+  &.-projet2 {
+    background: url('https://unsplash.it/900/600?image=1011') center;
+
+    &:hover {
+      background: #ac9897;
+      cursor: pointer;
+
+      .gid__element__desc {
+        display: block;
+      }
+    }
+  }
+
+  &.-projet3 {
+    background: url('https://unsplash.it/900/600?image=1011') center;
+
+    &:hover {
+      background: #d57f70;
+      cursor: pointer;
+
+      .gid__element__desc {
+        display: block;
+      }
+    }
+  }
+
+  &.-projet4 {
+    background: url('https://unsplash.it/900/600?image=1011') center;
+
+    &:hover {
+      background: #dcb967;
+      cursor: pointer;
+
+      .gid__element__desc {
+        display: block;
+      }
+    }
+  }
+
+  &.-projet5 {
+    background: url('https://unsplash.it/900/600?image=1011') center;
+
+    &:hover {
+      background: #ac9897;
+      cursor: pointer;
+
+      .gid__element__desc {
+        display: block;
+      }
+    }
+  }
+
+
 }
